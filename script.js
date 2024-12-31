@@ -4,13 +4,13 @@ const imagesData = [
     { label: 'Defender', paths: ['images/Defender1.webp', 'images/Defender2.webp', 'images/Defender3.webp', 'images/Defender4.webp'], hint: '2-seat light xeno fighter.' },
     { label: 'Starfarer', paths: ['images/farer1.webp', 'images/farer2.webp', 'images/farer3.webp'], hint: 'Premier refuelling vessel of UEE.' },
     { label: 'Starlancer MAX', paths: ['images/lancer.webp'], hint: '224 SCU of cargo.' },
-    { label: 'Mercury Star Runner', paths: ['images/Mercury1.webp', 'images/Mercury2.webp', 'images/Mercury3.webp', 'images/Mercury4.webp'], hint: '114 SCU and more' },
-    { label: 'Crusader Spirit', paths: ['images/Spirit1.webp', 'images/Spirit2.webp'], hint: 'Comes in 3 varieties for all needs.' },
-    { label: 'Hercules Starlifter', paths: ['images/Hercules.webp', 'images/Hercules2.webp', 'images/Hercules3.webp'], hint: 'Comes in 3 varieties for all needs.' },
+    { label: 'Mercury', paths: ['images/Mercury1.webp', 'images/Mercury2.webp', 'images/Mercury3.webp', 'images/Mercury4.webp'], hint: '114 SCU and more' },
+    { label: 'Spirit', paths: ['images/Spirit1.webp', 'images/Spirit2.webp'], hint: 'Comes in 3 varieties for all needs.' },
+    { label: 'Hercules', paths: ['images/Hercules.webp', 'images/Hercules2.webp', 'images/Hercules3.webp'], hint: 'Comes in 3 varieties for all needs.' },
 	{ label: 'Constellation', paths: ['images/Constellation.webp', 'images/Constellation2.webp', 'images/Constellation3.webp'], hint: 'A classic medium vessel in the verse.' },
-	{ label: 'Origin 300', paths: ['images/300.webp', 'images/3002.webp'], hint: 'Single seater with an array of options.' },
+	{ label: '300i', paths: ['images/300.webp', 'images/3002.webp'], hint: 'Single seater with an array of options.' },
 	{ label: 'Buccaneer', paths: ['images/Buccaneer.webp', 'images/Buccaneer2.webp'], hint: 'Scrappy light fighter.' },
-	{ label: 'Cutlass', paths: ['images/Cutlass.webp', 'images/Cutlass2.webp'], hint: 'Versatile ship to have for any pilot.' },
+	{ label: 'Cutlass', paths: ['images/Cutlass.webp', 'images/Cutlass2.webp'], hint: '4 variants of this hull exist.' },
 	{ label: 'F7C Lightning', paths: ['images/F7CLightning.webp', 'images/F7CLightning2.webp'], hint: 'Premier space superiority fighter of the UEE' },
 	{ label: 'Hurricane', paths: ['images/Hurricane.webp', 'images/Hurricane2.webp', 'images/Hurricane3.webp'], hint: 'Heavy fighter that punches above its weight class.' },
 	{ label: 'Redeemer', paths: ['images/Redeemer.webp'], hint: 'Gunship that can deliver armed soldiers' },
@@ -43,8 +43,8 @@ const imagesData = [
 	{ label: 'Carrack', paths: ['images/Carrack.webp', 'images/Carrack2.webp', 'images/Carrack3.webp', 'images/Carrack4.webp'], hint: 'A coveted exploration vessel.' },
 	{ label: 'Corsair', paths: ['images/Corsair.webp', 'images/Corsair2.webp', 'images/Corsair3.webp', 'images/Corsair4.webp'], hint: 'Officially made to explore.' },
 	{ label: 'Eclipse', paths: ['images/Eclipse.webp', 'images/Eclipse2.webp', 'images/Eclipse3.webp'], hint: 'Stealth' },
-	{ label: 'Mustang', paths: ['images/Mustang.webp', 'images/Mustang2.webp', 'images/Mustang3.webp'], hint: 'Comes in 4 varieties for whatever is needed' },
-	{ label: 'MPUV', paths: ['images/MPUV.webp', 'images/MPUV2.webp', 'images/MPUV3.webp', 'images/MPUV4.webp'], hint: 'Classic workhorse of the UEE.' },
+	{ label: 'Mustang', paths: ['images/Mustang.webp', 'images/Mustang2.webp', 'images/Mustang3.webp'], hint: 'Comes in 5 variants.' },
+	{ label: 'MPUV', paths: ['images/MPUV.webp', 'images/MPUV2.webp', 'images/MPUV3.webp', 'images/MPUV4.webp'], hint: 'Workhorse of the UEE.' },
 	{ label: 'Vulture', paths: ['images/Vulture.webp', 'images/Vulture2.webp', 'images/Vulture3.webp', 'images/Vulture4.webp'], hint: 'Single seater profession starter.' },
 	{ label: '85x', paths: ['images/85x.webp', 'images/85x2.webp', 'images/85x3.webp', 'images/85x4.webp'], hint: 'Racer' },
 	{ label: 'Aurora', paths: ['images/Aurora.webp', 'images/Aurora2.webp', 'images/Aurora3.webp'], hint: 'Enabling citizens everywhere to reach the stars.' },
@@ -54,7 +54,7 @@ const imagesData = [
 	{ label: 'Valkyrie', paths: ['images/Valkyrie.webp', 'images/Valkyrie2.webp', 'images/Valkyrie3.webp', 'images/Valkyrie4.webp', 'images/Valkyrie5.webp'], hint: 'Well armed troop transport.' },
 	{ label: 'm50', paths: ['images/m50.webp', 'images/m502.webp', 'images/m503.webp'], hint: 'A luxury exploration ship from Origin.' },
 	{ label: 'Prospector', paths: ['images/Prospector.webp', 'images/Prospector2.webp', 'images/Prospector3.webp', 'images/Prospector4.webp'], hint: 'Starter profession ship' },
-	{ label: 'Zeus MKII', paths: ['images/Zeus.webp', 'images/Zeus2.webp', 'images/Zeus3.webp'], hint: 'Reinvention of a spacefaring classic' },
+	{ label: 'Zeus', paths: ['images/Zeus.webp', 'images/Zeus2.webp', 'images/Zeus3.webp'], hint: 'Reinvention of a spacefaring classic' },
 	{ label: 'Hull A', paths: ['images/HULLA.webp', 'images/HULLA2.webp', 'images/HULLA3.webp'], hint: '64 SCU of easy access cargo' },
 	{ label: '400i', paths: ['images/400i.webp', 'images/400i2.webp', 'images/400i3.webp'], hint: 'Medium ship focusing on comfort' },
 	{ label: 'Guardian', paths: ['images/Guardian.webp', 'images/Guardian2.webp', 'images/Guardian3.webp', 'images/Guardian4.webp'], hint: 'Heavy fighter meant to hunt bigger vessels.' },
@@ -177,7 +177,7 @@ function checkAnswer() {
     console.log('checkAnswer called'); // Debug log
     const userAnswer = userInput.value.trim();
     if (userAnswer.toLowerCase() === currentQuestion.correctLabel.toLowerCase()) {
-        feedback.textContent = 'Chris blesses your voyages!';
+        feedback.textContent = 'Next voyage blessed by Chris'
         feedback.style.color = 'green';
 
         setTimeout(loadQuestion, 1500);
